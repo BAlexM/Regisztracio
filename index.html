@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    <div> 
+        <div class="w-25 bg-light rounded mx-auto" style="margin-top: 6%;">
+            <h2 class="text-center">Regisztráció</h2>
+            <form class="w-75 mx-auto">
+                <div class="form-group">
+                    <label for="nev1">Vezetéknév</label>
+                    <input type="text" class="form-control" id="Vezetek" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="mev2">Keresztnév</label>
+                    <input type="text" class="form-control" id="Kereszt" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email cím</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="jelszó1">Jelszó</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="jelszó2">Jelszó megerősítése</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <h5>Tanár vagy vagy diák?</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tanar_vagy_diak" id="tanar" value="option1" checked>
+                    <label class="form-check-label" for="tanar">
+                      Tanár
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tanar_vagy_diak" id="diak" value="option2">
+                    <label class="form-check-label" for="diak">
+                      Diák
+                    </label>
+                  </div>
+                    <p>OM azonosító</p>
+                <div>
+                    <div class="col-aut my-1">
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected></option>
+                                <option value="1">123456</option>
+                                <option value="2">234567</option>
+                                <option value="3">345678</option>
+                                <option value="4">456789</option>
+                                <option value="5">987654</option>
+                                <option value="6">876543</option>
+                                <option value="7">765432</option>
+                                <option value="8">654321</option>
+                        </select>
+                    </div>
+                </div>                    
+                <button type="submit" class="w-100 btn btn-success" style="margin-bottom: 7%;">Submit</button>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
